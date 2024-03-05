@@ -72,19 +72,4 @@ window.addEventListener('load', ()=> {
         });
 
     });
-    // let localitems = localStorage.getItem('tasklist');
-    // let tasklist = localitems ? JSON.parse(localitems) : [];
-    // submit.addEventListener( 'click', (e)=> {
-    // let localitems = JSON.parse(localStorage.getItem('localitem'));
-    // if(localitems === null){
-    //     tasklist = []
-    // }else{
-    //     tasklist = localitems;
-    // }; 
-    // e.preventDefault();
-
-    // tasklist.push(input.value);
-    // localStorage.setItem('localitem', JSON.stringify(tasklist));
-    
-    // })
 });
